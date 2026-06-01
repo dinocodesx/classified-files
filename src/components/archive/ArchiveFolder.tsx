@@ -15,9 +15,9 @@ const ArchiveFolder: React.FC<ArchiveFolderProps> = ({
   goNext,
   children,
 }) => {
-  const tabs = ["03", "04", "05", "06", "07", "08", "09"].map((t, i) => ({
+  const tabs = ["03", "05", "07", "09", "11", "13", "15"].map((t, i) => ({
     label: t,
-    active: i === Math.floor(page / 1.5),
+    active: i === Math.floor(page / 2.3),
   }));
 
   return (

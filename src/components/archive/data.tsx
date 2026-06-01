@@ -1,5 +1,11 @@
 import Page1 from "./pages/Page1";
 import Page10 from "./pages/Page10";
+import Page11 from "./pages/Page11";
+import Page12 from "./pages/Page12";
+import Page13 from "./pages/Page13";
+import Page14 from "./pages/Page14";
+import Page15 from "./pages/Page15";
+import Page16 from "./pages/Page16";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
@@ -112,6 +118,72 @@ export const PAGES: Page[] = [
   },
   {
     id: 10,
+    title: "FINANCIAL AUDIT",
+    subtitle: "STATION VIENNA — DISCRETIONARY FUNDS",
+    agencyCode: "FINANCE & COMPTROLLER DIVISION",
+    docRef: "FIN-1974-0882",
+    date: "12 APR 1974",
+    classification: "SECRET",
+    blueBox: { big: "AUD", lines: ["FINANCIAL", "AUDIT"] },
+    content: <Page10 />,
+  },
+  {
+    id: 11,
+    title: "TECHNICAL ANALYSIS",
+    subtitle: "SIGNALS INTELLIGENCE — ATTRIBUTION",
+    agencyCode: "SIGNALS INTELLIGENCE DIVISION",
+    docRef: "SIGINT-1974-0412",
+    date: "15 APR 1974",
+    classification: "TOP SECRET",
+    blueBox: { big: "SIG", lines: ["TECHNICAL", "ANALYSIS"] },
+    content: <Page11 />,
+  },
+  {
+    id: 12,
+    title: "ASSET REASSIGNMENT",
+    subtitle: "DIRECTIVE 74-09 — SECTION VII",
+    agencyCode: "SECTION VII — FOREIGN INTELLIGENCE",
+    docRef: "DIR-VII-0301",
+    date: "18 APR 1974",
+    classification: "TOP SECRET",
+    blueBox: { big: "TFR", lines: ["ASSET", "TRANSFER"] },
+    content: <Page12 />,
+  },
+  {
+    id: 13,
+    title: "LIAISON REQUEST",
+    subtitle: "IDENTIFICATION INQUIRY — BND",
+    agencyCode: "LIAISON & COORDINATION BRANCH",
+    docRef: "LR-1974-2291",
+    date: "20 APR 1974",
+    classification: "SECRET",
+    blueBox: { big: "BND", lines: ["LIAISON", "REQ"] },
+    content: <Page13 />,
+  },
+  {
+    id: 14,
+    title: "SURVEILLANCE LOG",
+    subtitle: "POST-OPERATIONAL MONITORING",
+    agencyCode: "INTERNAL SECURITY BRANCH",
+    docRef: "ISB-1974-0102",
+    date: "22 APR 1974",
+    classification: "TOP SECRET",
+    blueBox: { big: "LOG", lines: ["SURV.", "LOG"] },
+    content: <Page14 />,
+  },
+  {
+    id: 15,
+    title: "STRATEGIC ASSESSMENT",
+    subtitle: "OPERATIONAL IMPACT — GREY MANTLE",
+    agencyCode: "OFFICE OF STRATEGIC PLANNING",
+    docRef: "OSP-1974-0044",
+    date: "28 APR 1974",
+    classification: "TOP SECRET",
+    blueBox: { big: "IMP", lines: ["FINAL", "IMPACT"] },
+    content: <Page15 />,
+  },
+  {
+    id: 16,
     title: "ARCHIVAL RECORD",
     subtitle: "DECLASSIFICATION REVIEW — CASE FILE COMPLETE",
     agencyCode: "RECORDS MANAGEMENT DIVISION",
@@ -119,6 +191,6 @@ export const PAGES: Page[] = [
     date: "REVIEWED: 1998",
     classification: "DECLASSIFIED",
     blueBox: { big: "EOF", lines: ["END OF", "FILE"] },
-    content: <Page10 />,
+    content: <Page16 />,
   },
 ];
