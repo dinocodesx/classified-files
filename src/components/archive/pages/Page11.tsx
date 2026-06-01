@@ -4,34 +4,28 @@ import Redacted from "../Redacted";
 const Page11: React.FC = () => {
   return (
     <div>
-      <div className="section-label">TECHNICAL ANALYSIS — SIGNALS INTELLIGENCE</div>
+      <div className="notecard" style={{ marginBottom: 10 }}>
+        <div className="notecard-text">
+          <span className="highlight">TECH DIV NOTICE:</span> The following spectrum analysis involves highly classified collection methods. DO NOT duplicate.
+        </div>
+      </div>
+      <div className="section-label">SIGINT EVALUATION — ANOMALOUS BURST</div>
       <div className="body-text">
-        <p className="indent">
-          Reference is made to the "Anomalous signal burst" recorded on 12 MAR
-          1974 (SIGINT-1974-0394). Further processing at Fort Meade has
-          yielded definitive attribution.
-        </p>
+        <p className="indent">On 13 MAR 1974, at 23:55 local time, Station Vienna intercepted an anomalous 4-second burst transmission on a backup frequency. Technical Division has completed its spectral analysis of the recording (TAPE-VIE-740313-C).</p>
         <div className="form-row">
-          <span className="form-label">SIGNAL ORIGIN</span>
-          <span className="form-value">
-            <Redacted>███████</Redacted>
-          </span>
+          <span className="form-label">FREQUENCY</span>
+          <span className="form-value"><Redacted>███.██</Redacted> MHz (UHF Band)</span>
         </div>
         <div className="form-row">
-          <span className="form-label">EQUIPMENT VARIANT</span>
-          <span className="form-value">
-            <Redacted>GRU</Redacted> Type-99 or similar
-          </span>
+          <span className="form-label">ENCRYPTION</span>
+          <span className="form-value">High-speed pulse, suspected one-time pad</span>
         </div>
-        <p className="indent">
-          The frequency hopping pattern suggests a high-bandwidth transmission
-          standard for Soviet field operatives. This confirms the presence of
-          a second, unmonitored intelligence element in the Vienna sector
-          during the GREY MANTLE window.
-        </p>
+        <div className="section-label">ATTRIBUTION & TRIANGULATION</div>
+        <p className="indent">Triangulation arrays place the origin of the transmission within a 400-meter radius of the Innere Stadt, closely corresponding to the Volksgarten drop site used by Agent Hartmann and CARDINAL.</p>
+        <p className="indent">The encryption envelope and baud rate strongly match profiles associated with <Redacted>███████</Redacted> military intelligence, specifically a known <Redacted>GRU</Redacted> variant utilized by their Directorate K operatives.</p>
+        <p className="indent"><strong>CONCLUSION:</strong> It is highly probable that the March 14th exchange was subject to hostile electronic surveillance. We recommend sweeping all Station Vienna vehicles and safe houses for passive listening devices immediately.</p>
       </div>
     </div>
   );
 };
-
 export default Page11;
