@@ -76,7 +76,3 @@ The project leverages a typewriter-inspired aesthetic, using specialized typogra
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-**[TERMINATE SESSION]**
