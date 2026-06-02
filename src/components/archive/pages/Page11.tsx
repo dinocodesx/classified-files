@@ -4,28 +4,27 @@ import Redacted from "../Redacted";
 const Page11: React.FC = () => {
   return (
     <div>
-      <div className="notecard" style={{ marginBottom: 10 }}>
-        <div className="notecard-text">
-          <span className="highlight">TECH DIV NOTICE:</span> The following spectrum analysis involves highly classified collection methods. DO NOT duplicate.
-        </div>
+      <div className="form-row">
+        <span className="form-label">ALERT LEVEL</span>
+        <span className="form-value">ORANGE — POSSIBLE PSYCHOLOGICAL CONTAMINATION</span>
       </div>
-      <div className="section-label">SIGINT EVALUATION — ANOMALOUS BURST</div>
+      <div className="section-label">SECURITY INCIDENT ISB-74-092</div>
       <div className="body-text">
-        <p className="indent">On 13 MAR 1974, at 23:55 local time, Station Vienna intercepted an anomalous 4-second burst transmission on a backup frequency. Technical Division has completed its spectral analysis of the recording (TAPE-VIE-740313-C).</p>
-        <div className="form-row">
-          <span className="form-label">FREQUENCY</span>
-          <span className="form-value"><Redacted>███.██</Redacted> MHz (UHF Band)</span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">ENCRYPTION</span>
-          <span className="form-value">High-speed pulse, suspected one-time pad</span>
-        </div>
-        <div className="section-label">ATTRIBUTION & TRIANGULATION</div>
-        <p className="indent">Triangulation arrays place the origin of the transmission within a 400-meter radius of the Innere Stadt, closely corresponding to the Volksgarten drop site used by Agent Hartmann and CARDINAL.</p>
-        <p className="indent">The encryption envelope and baud rate strongly match profiles associated with <Redacted>███████</Redacted> military intelligence, specifically a known <Redacted>GRU</Redacted> variant utilized by their Directorate K operatives.</p>
-        <p className="indent"><strong>CONCLUSION:</strong> It is highly probable that the March 14th exchange was subject to hostile electronic surveillance. We recommend sweeping all Station Vienna vehicles and safe houses for passive listening devices immediately.</p>
+        <p className="indent">
+          At 02:00 on November 5th, Agent Blackwood, a senior field lead with 12 years of service, was found in the secure communications room. He had bypassed two biometric checkpoints and was attempting to broadcast a 12-terawatt wide-band signal toward the Lunar relay point. The signal contained a scrambled version of our own encrypted mission logs.
+        </p>
+        <p className="indent">
+          When restrained by security teams, Blackwood offered no resistance. He claimed he was "merely answering the door" and that the "caller was impatient." Medical examination showed signs of <Redacted unlockCode="OCULAR">severe ocular hemorrhaging</Redacted> and a rapid expansion of the pineal gland. 
+        </p>
+        <p className="indent">
+          A search of his quarters revealed thousands of pages of detailed drawings, executed in what appears to be a mixture of ink and his own blood. They depict a massive, <Redacted unlockCode="PYRAMID">pyramid-shaped structure</Redacted> hidden deep beneath the ice of Queen Maud Land, Antarctica. He calls it "The Anchor" and claims it has been vibrating for ten thousand years, waiting for the Starfall signal to "wake it up."
+        </p>
+        <p className="indent">
+          Blackwood has been placed in solitary confinement under 24-hour observation. He continues to hum the KHORANA sequence.
+        </p>
       </div>
     </div>
   );
 };
+
 export default Page11;

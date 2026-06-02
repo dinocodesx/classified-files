@@ -4,39 +4,23 @@ import Redacted from "../Redacted";
 const Page9: React.FC = () => {
   return (
     <div>
-      <div className="section-label">OPERATIONAL SUMMARY</div>
+      <div className="form-row">
+        <span className="form-label">DEPARTMENT</span>
+        <span className="form-value">XENO-BIOLOGY LAB 4 — DULCE BASE</span>
+      </div>
+      <div className="section-label">AUTOPSY OF RECOVERED BIOMASS — FRAGMENT A</div>
       <div className="body-text">
         <p className="indent">
-          Operation GREY MANTLE is hereby formally closed, effective 1 June
-          1974. This report constitutes the official summary of the operation's
-          final status and is prepared for archival deposit.
+          Note: Subject EBE-1 is still living and currently housed at Groom Lake. This report concerns the secondary biological material found adhered to the interior hull of the Coyote Springs craft, designated "Biomass Fragment A."
         </p>
         <p className="indent">
-          The operation, initiated in January 1974 in response to intelligence
-          opportunities identified through asset CARDINAL, achieved its primary
-          objectives. Three documents of assessed high intelligence value were
-          successfully obtained and exploited. The intelligence contributed to
-          briefings related to the April summit (reference:{" "}
-          <Redacted>████████████</Redacted>) and is assessed to have provided
-          material advantage in those proceedings.
-        </p>
-        <div className="section-label">DISPOSITION OF MATTERS ARISING</div>
-        <p className="indent">
-          The unidentified third party observed at the March exchange was,
-          following extended investigation, assessed to be an officer of a{" "}
-          <Redacted>████████</Redacted> service acting in a coincidental
-          surveillance capacity unrelated to GREY MANTLE. The risk to CARDINAL
-          and to Station Vienna is assessed as LOW.
+          The biomass is a <Redacted unlockCode="CRYSTALLINE">crystalline lattice</Redacted> interlaced with semi-conductive, nervous-system-like fibers. Chemical analysis reveals a high concentration of silicon and carbon, but the structural arrangement suggests it was engineered rather than evolved. It appears to act as a distributed biological computer, processing telemetry data from the craft's exterior sensors and translating it into a format the pilot (EBE-1) can perceive directly.
         </p>
         <p className="indent">
-          Asset CARDINAL has been successfully transitioned to a revised contact
-          protocol and remains active and productive. His current handler is{" "}
-          <Redacted>████████</Redacted>, who assumed the role in May 1974
-          following Hartmann's transfer.
+          When exposed to a low-voltage electrical current, the lattice emits a high-pitched frequency that causes <Redacted unlockCode="NAUSEA">intense nausea</Redacted>, sharp headaches, and momentary loss of motor control in 90% of lab staff. We have discovered that the sequence of pulses emitted by the biomass corresponds to a <Redacted unlockCode="COORDINATE">coordinate system</Redacted> that uses the galactic center as a fixed reference point, rather than any terrestrial or solar map.
         </p>
         <p className="indent">
-          Agent Hartmann is commended for his professionalism throughout this
-          operation and has been recommended for accelerated promotion.
+          Furthermore, the biomass continues to grow even in a vacuum. It seems to draw energy from ambient electromagnetic radiation, essentially "eating" the radio waves and radar pings we use to monitor it.
         </p>
       </div>
     </div>

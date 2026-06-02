@@ -4,55 +4,26 @@ import Redacted from "../Redacted";
 const Page8: React.FC = () => {
   return (
     <div>
-      <div className="section-label">FINDINGS TO DATE</div>
-      <div className="body-text">
-        <p className="indent">
-          The Internal Security Branch submits this interim report on
-          investigation ISB-74-GREYMANTLE, fourteen days from opening.
-        </p>
-        <div className="form-row">
-          <span className="form-label">TRACK A</span>
-          <span className="form-value" style={{ fontSize: 10 }}>
-            Physical composite circulated. One partial match identified in
-            liaison database — a <Redacted>█████████</Redacted> national,
-            occupation unverified, known to frequent Vienna. Currently under
-            passive surveillance. No confirmation of connection to any
-            intelligence service as yet.
-          </span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">TRACK B</span>
-          <span className="form-value" style={{ fontSize: 10 }}>
-            SIGINT audit complete. The anomalous burst transmission of 13 MAR
-            has been identified as a probable covert reporting signal.
-            Encryption pattern does not match any friendly service. Pattern
-            forwarded to Technical Division for further analysis.
-          </span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">TRACK C</span>
-          <span className="form-value" style={{ fontSize: 10 }}>
-            No direct evidence of compromise to CARDINAL. Asset remains in
-            place. Cover assessed as intact at this time. Recommend resumption
-            of contact per revised protocol once Track A resolved.
-          </span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">TRACK D</span>
-          <span className="form-value" style={{ fontSize: 10 }}>
-            Internal audit of Station Vienna — ongoing. Three personnel flagged
-            for follow-up interviews. No findings of deliberate misconduct to
-            date. Administrative security lapses noted and addressed.
-          </span>
-        </div>
+      <div className="form-row">
+        <span className="form-label">SUBJECT</span>
+        <span className="form-value">QUARANTINE OBSERVATION — DAY 1</span>
       </div>
-      <div className="section-label">ASSESSMENT</div>
+      <div className="section-label">MEDICAL LOG — DR. HELEN VOSS</div>
       <div className="body-text">
         <p className="indent">
-          The investigation is ONGOING. The evidence is consistent with
-          surveillance by an unknown hostile intelligence service, but no firm
-          attribution can be made at this stage. Recommend continued suspension
-          of GREY MANTLE activities pending full resolution.
+          EBE-1 has been placed in a pressurized xenon-oxygen atmosphere within the high-security medical wing of Groom Lake. Monitoring is constant.
+        </p>
+        <p className="indent">
+          While technically unconscious, the entity appears to be communicating. Not through vocalization, but by some form of induction. EEG readings show massive, structured bursts of activity every time the <Redacted unlockCode="MOON">Lunar Pulse</Redacted> hits our receiver. It is as if the entity's brain is being used as a processing node for the signal.
+        </p>
+        <p className="indent">
+          We have observed a strange phenomenon: personnel in proximity to the quarantine glass have reported <Redacted unlockCode="AUDITORY">auditory hallucinations</Redacted>. They describe a sound like "shattering glass" or "singing ice," followed by a sense of deep, existential dread.
+        </p>
+        <p className="indent">
+          One technician has been removed from duty after attempting to <Redacted unlockCode="OPEN">open the airlock</Redacted> without authorization. When questioned, he claimed the entity was "suffocating in the dark" and that he "needed to let the light in." He has no memory of the incident.
+        </p>
+        <p className="indent">
+          Recommendation: All medical staff are to be rotated every 4 hours to minimize cognitive drift.
         </p>
       </div>
     </div>

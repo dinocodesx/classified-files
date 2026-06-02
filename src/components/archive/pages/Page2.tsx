@@ -4,45 +4,31 @@ import Redacted from "../Redacted";
 const Page2: React.FC = () => {
   return (
     <div>
-      <div
-        className="notecard"
-        style={{ marginBottom: 10, position: "relative" }}
-      >
-        <div className="notecard-text">
-          <span className="highlight">NOTE:</span> Pages 2–4 of this memorandum
-          contain sensitive personnel identifiers. Handle under Protocol
-          9-DELTA. Do not reproduce without written authorization from the
-          Director's office.
-          <br />
-          Ref: <span className="highlight">STANDING ORDER 1141-F</span>
-        </div>
+      <div className="form-row">
+        <span className="form-label">TO</span>
+        <span className="form-value">Director of Special Operations, STARFALL HQ</span>
       </div>
-      <div className="section-label">CONTINUED FROM PAGE 1</div>
+      <div className="form-row">
+        <span className="form-label">FROM</span>
+        <span className="form-value">Dr. Elias Thorne, Head of Technical Analysis</span>
+      </div>
+      <div className="form-row">
+        <span className="form-label">SUBJECT</span>
+        <span className="form-value">TRIANGULATION AND ATTRIBUTION — LUNAR SOURCE</span>
+      </div>
+      <div className="section-label">TECHNICAL FINDINGS</div>
       <div className="body-text">
         <p className="indent">
-          The individual — a male, approximately 40 years of age, medium build,
-          grey overcoat — appeared to observe the exchange for no fewer than
-          twelve minutes before departing eastward on foot. Agent{" "}
-          <Redacted>████████</Redacted> attempted a tail but lost contact near
-          the Ringstrasse at approximately 14:22 local time.
+          Using a combination of the Goldstone array and the Parkes Observatory in Australia, we have achieved a high-confidence triangulation of the source. The signal is stationary at 0.67° N, 23.47° E. This corresponds exactly to the <Redacted>Tranquility Base</Redacted> landing site, where the Apollo 11 Lunar Module "Eagle" descended in 1969.
         </p>
         <p className="indent">
-          I have forwarded physical descriptions and a hand-rendered composite
-          to the Identification Bureau under cover of separate correspondence
-          (IDENT-REQ-1974-2291). I urge that this be treated as priority.
-        </p>
-        <div className="section-label">ASSET ASSESSMENT</div>
-        <p className="indent">
-          CARDINAL's reliability remains, in my assessment, exceptional. The
-          materials delivered conform to the specifications communicated via
-          channel <Redacted>███</Redacted>-ECHO in February. Authentication
-          codes verified against our master register — all indicators positive.
+          While the location is known, the signal power is impossible. Telemetry indicates a broadcast strength of roughly 50 kilowatts, which exceeds any hardware left behind by the Apollo missions by several orders of magnitude. Furthermore, the signal began abruptly, with no lead-in or testing phase detected by our satellite network.
         </p>
         <p className="indent">
-          That said, CARDINAL expressed increasing anxiety about the security of
-          the existing arrangement. He has requested a change of contact
-          protocol by next quarter. I consider this request reasonable given the
-          circumstances described above.
+          The pulse carries a carrier wave modulated by a sequence of prime numbers (2, 3, 5, 7, 11, 13...). This is a clear indicator of <Redacted unlockCode="INTELLIGENCE">artificial origin</Redacted>. More concerningly, we have detected a secondary, much weaker signal reflecting off the Moon's surface, originating from a deep space vector.
+        </p>
+        <p className="indent">
+          The vector points toward the <Redacted unlockCode="VEGA">Lyra Constellation</Redacted>, specifically the star Vega. This suggests the Moon is not the source, but a relay station. Something has "turned on" an old piece of equipment, or used our own landing site as a mirror for a message from deep space.
         </p>
       </div>
     </div>

@@ -5,54 +5,27 @@ const Page7: React.FC = () => {
   return (
     <div>
       <div className="form-row">
-        <span className="form-label">TO</span>
-        <span className="form-value">Agent R. Hartmann, Station Vienna</span>
+        <span className="form-label">ASSET ID</span>
+        <span className="form-value">E.B.E. — 1 (Extraterrestrial Biological Entity)</span>
       </div>
       <div className="form-row">
-        <span className="form-label">FROM</span>
-        <span className="form-value">
-          Director <Redacted>████████████</Redacted>, Section VII
-        </span>
+        <span className="form-label">CONDITION</span>
+        <span className="form-value">STABLE / UNCONSCIOUS</span>
       </div>
-      <div className="section-label">DIRECTIVE</div>
+      <div className="section-label">INITIAL RECOVERY REPORT</div>
       <div className="body-text">
         <p className="indent">
-          Your memorandum of 14 March has been received, reviewed, and actioned.
-          The Director commends your handling of the exchange and your prompt
-          disclosure of the security anomaly. Such vigilance is the mark of a
-          competent officer.
+          The entity was recovered from the craft at 04:00 after the hull spontaneously opened. It is humanoid in shape, approximately 4 feet tall, with a disproportionately large head and large, <Redacted unlockCode="OBSIDIAN">obsidian-colored eyes</Redacted> that lack pupils or irises.
         </p>
         <p className="indent">
-          You are hereby authorized to continue in your role as Case Officer for
-          CARDINAL, subject to the security protocols imposed by the Internal
-          Security Branch under reference ISB-74-GREYMANTLE. You will cooperate
-          fully with all aspects of that investigation.
+          The skin is a uniform light grey, porous, and lacks any visible hair, sweat glands, or reproductive organs. Respirations are minimal, approximately 3 per minute. No heartbeat was detected by conventional acoustic means, though a rhythmic <Redacted unlockCode="VIBRATION">electromagnetic vibration</Redacted> is present in the chest cavity, suggesting a circulatory system based on induction rather than pressure.
         </p>
         <p className="indent">
-          With regard to CARDINAL's request for amended contact protocols — this
-          is approved in principle. You are to propose a revised arrangement and
-          submit it to this office for authorization before implementation. Bear
-          in mind that continuity of access is paramount; do not allow security
-          precautions to rupture the relationship.
+          The entity was wearing a form-fitting suit made of a silver-threaded fabric. Microscopic analysis suggests this fabric is <Redacted unlockCode="ORGANIC">grown rather than manufactured</Redacted>, and appears to be bonded directly to the skin via a series of subcutaneous nodes.
         </p>
-        <div className="section-label">ON THE THIRD PARTY</div>
         <p className="indent">
-          The question of the unidentified observer is of the highest concern to
-          this office. Until the matter is resolved, I must ask you to assume
-          the worst and act accordingly. If at any point you assess that
-          CARDINAL or Station Vienna has been compromised, you are authorized to
-          invoke <strong>Protocol IRON CURTAIN</strong> without prior
-          consultation.
+          Initial attempts to establish a baseline medical profile have failed; the entity's blood is a thick, amber-colored fluid that solidifies almost instantly when exposed to the atmosphere.
         </p>
-        <p>You have my full confidence, Hartmann. Do not fail us.</p>
-        <div style={{ marginTop: 14 }}>
-          <span className="signature">
-            —{" "}
-            <Redacted style={{ fontFamily: "Special Elite", fontSize: 18 }}>
-              ████████
-            </Redacted>
-          </span>
-        </div>
       </div>
     </div>
   );

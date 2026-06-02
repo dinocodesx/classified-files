@@ -4,23 +4,31 @@ import Redacted from "../Redacted";
 const Page12: React.FC = () => {
   return (
     <div>
-      <div className="section-label">DIRECTIVE: ASSET REASSIGNMENT</div>
+      <div className="form-row">
+        <span className="form-label">FROM</span>
+        <span className="form-value">General Arthur Vance</span>
+      </div>
+      <div className="form-row">
+        <span className="form-label">TO</span>
+        <span className="form-value">The Joint Chiefs of Staff</span>
+      </div>
+      <div className="section-label">DIRECTOR'S BRIEFING — PROJECT STARFALL STATUS</div>
       <div className="body-text">
-        <div className="form-row">
-          <span className="form-label">ASSET</span>
-          <span className="form-value">CARDINAL (Vienna Source)</span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">NEW HANDLER</span>
-          <span className="form-value">Agent <Redacted>████████</Redacted> (Arriving 12 APR)</span>
-        </div>
-        <p className="indent">Given the detection of a potential hostile surveillance element during the March 14th exchange, Agent Hartmann is ordered to initiate a controlled handover of asset CARDINAL.</p>
-        <div className="section-label">HANDOVER PROTOCOL</div>
-        <p className="indent">CARDINAL has expressed significant anxiety regarding his personal security. The handover must be conducted with extreme delicacy to prevent the asset from panicking and breaking contact. Hartmann is to introduce the new handler under the alias "Herr <Redacted>█████</Redacted>", operating under the cover of a Swiss trade attaché.</p>
-        <p className="indent">Effective immediately, the Volksgarten location is burned. All future physical exchanges will utilize <strong>Protocol 7-OMEGA</strong>. The new primary drop site will be located within the confines of the Zentralfriedhof (Central Cemetery), utilizing Sector <Redacted>██</Redacted> for dead-letter transfers.</p>
-        <p className="indent">If CARDINAL fails to appear for the initial handover meeting, Station Vienna is not to attempt direct contact at his place of employment. We cannot risk blowing his cover entirely.</p>
+        <p className="indent">
+          Gentlemen, we are no longer in a "research and discovery" phase. We have officially entered a "defense and containment" phase. The events at Coyote Springs and the subsequent behavior of EBE-1 suggest an intent that is far from benign.
+        </p>
+        <p className="indent">
+          The Lunar Pulse has increased in intensity by 40% in the last 72 hours. Our satellite reconnaissance (Project HEXAGON) has confirmed the presence of three additional <Redacted unlockCode="CLOAKED">cloaked vessels</Redacted> currently in High Earth Orbit. They are maintaining a perfect triangular formation exactly 120 degrees apart, with the Coyote Springs site at the center of the triangle.
+        </p>
+        <p className="indent">
+          EBE-1 has regained consciousness and has shown a terrifying level of adaptability. It has refused all biological nourishment but has requested access to our <Redacted unlockCode="RADAR">Global Radar Network</Redacted> via its telepathic interface. It claims it can "stop the signal" and prevent the arrival of the main fleet. I do not trust it. I believe it is seeking to map our planetary defenses before the next impact event.
+        </p>
+        <p className="indent">
+          I am requesting authorization for the immediate activation of the "Star-Shield" orbital kinetic platforms. We must be prepared to strike the HEO vessels if they descend further.
+        </p>
       </div>
     </div>
   );
 };
+
 export default Page12;

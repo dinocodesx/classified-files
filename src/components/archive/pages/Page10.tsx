@@ -4,24 +4,27 @@ import Redacted from "../Redacted";
 const Page10: React.FC = () => {
   return (
     <div>
-      <div className="section-label">FINANCIAL AUDIT — Q1/Q2 1974</div>
+      <div className="form-row">
+        <span className="form-label">SUBJECT</span>
+        <span className="form-value">LINGUISTIC ANALYSIS — ATTEMPT 1</span>
+      </div>
+      <div className="section-label">CRYPTO-LINGUISTICS REPORT — SARAH JENKINS</div>
       <div className="body-text">
-        <p className="indent">Pursuant to the operational pause of GREY MANTLE, a comprehensive audit of Station Vienna's discretionary accounts has been executed by the Office of the Comptroller.</p>
-        <div className="form-row">
-          <span className="form-label">ACCOUNT REF</span>
-          <span className="form-value"><Redacted>██████</Redacted>-ECHO-99</span>
-        </div>
-        <div className="form-row">
-          <span className="form-label">TOTAL DRAW</span>
-          <span className="form-value">$42,500.00 USD (Eqv. Austrian Schillings)</span>
-        </div>
-        <div className="section-label">DISBURSEMENTS & EXPENSES</div>
-        <p className="indent">Asset CARDINAL received three separate scheduled payments totaling $15,000.00. Funds were dispersed via blind drops using pre-arranged commercial banking proxies in <Redacted>████████</Redacted>. Receipts and dead-drop photographic confirmations match the ledger.</p>
-        <p className="indent">Operational expenses for the surveillance team (Agents Hartmann and <Redacted>██████</Redacted>) including safe-house rentals, vehicle procurement, and specialized photographic equipment amounted to $27,500.00.</p>
-        <div className="section-label">IRREGULARITIES</div>
-        <p className="indent">A discrepancy of $450.00 was noted in the March 14th operational manifest. Hartmann attributed this to emergency counter-surveillance measures (bribes to local transit authorities) following the detection of the unknown third party. This variance has been reviewed and <strong>APPROVED</strong> by the Director of Section VII.</p>
+        <p className="indent">
+          The sounds produced by EBE-1, while in its rhythmic trance state, are not vocalized. There is no air movement from its respiratory slit during these events. Instead, the "sounds" are <Redacted unlockCode="TELEPATHIC">emitted directly as electromagnetic waves</Redacted> on the 1.4 GHz band, which the human auditory cortex interprets as high-fidelity sound through a process of bio-magnetic induction.
+        </p>
+        <p className="indent">
+          The recurring pattern we've identified as "The Message" has been slowed down by 400% for human comprehension. It contains a repeating set of three syllables that resonate with a strange, metallic timbre: <Redacted unlockCode="KHORA">KHO-RA-NA</Redacted>. When these syllables are converted into spectral density maps, they reveal a complex fractal pattern.
+        </p>
+        <p className="indent">
+          Using the frequency analysis tools at Langley, we've mapped the internal timing of these syllables to a mathematical constant. The value is <Redacted unlockCode="1.618">1.618</Redacted> (The Golden Ratio), maintained to the 12th decimal place. They aren't just speaking; they are speaking in pure geometry. The message is not a plea for help or a greeting; it is a declaration of presence.
+        </p>
+        <p className="indent">
+          Jenkins' Note: I feel as if the signal is not something I am listening to, but something that is listening to me. Whenever I close my eyes, I see the syllables as light.
+        </p>
       </div>
     </div>
   );
 };
+
 export default Page10;

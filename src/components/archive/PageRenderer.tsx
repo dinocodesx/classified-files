@@ -14,42 +14,6 @@ const PageRenderer: React.FC<PageRendererProps> = ({
 }) => {
   return (
     <div className="page page-animate-in" key={animKey}>
-      {/* Stamp circle on some pages */}
-      {current.id === 7 && (
-        <div
-          className="stamp-circle"
-          style={{
-            width: 64,
-            height: 64,
-            right: 16,
-            bottom: 60,
-            fontSize: 7,
-            lineHeight: 1.1,
-          }}
-        >
-          DIRECTOR
-          <br />
-          APPROVED
-        </div>
-      )}
-      {current.id === 10 && (
-        <div
-          className="stamp-circle"
-          style={{
-            width: 72,
-            height: 72,
-            left: 20,
-            bottom: 55,
-            fontSize: 7,
-            lineHeight: 1.1,
-          }}
-        >
-          RECORDS
-          <br />
-          CERTIFIED
-        </div>
-      )}
-
       <div className="page-content">
         {/* Header */}
         <div className="page-header">
