@@ -308,7 +308,8 @@ body {
     flex: 1;
     overflow: hidden;
 }
-.body-text p {
+.body-text p,
+.body-text div {
     margin-bottom: 10px;
 }
 .body-text .indent {
@@ -345,33 +346,38 @@ body {
 }
 
 /* ARROWS on sides: navigation hints */
-.nav-arrow {
+/*.nav-arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: rgba(200, 180, 100, 0.4);
-    pointer-events: none;
-    transition: opacity 0.3s;
+    color: rgba(200, 180, 100, 0.6);
+    transition:
+        opacity 0.3s,
+        color 0.2s;
     font-family: var(--font-heading);
     letter-spacing: -4px;
+    z-index: 60;
+    cursor: pointer;
+}
+.nav-arrow:hover {
+    color: var(--ink);
 }
 .nav-arrow.left {
     left: 6px;
 }
 .nav-arrow.right {
     right: 6px;
-}
-.folder-outer:hover .nav-arrow {
-    opacity: 1;
-}
+}*/
 
 /* CLICK ZONES */
 .click-zone {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 30%;
+    width: 10%;
+    min-width: 40px;
+    max-width: 80px;
     z-index: 50;
     cursor: pointer;
 }

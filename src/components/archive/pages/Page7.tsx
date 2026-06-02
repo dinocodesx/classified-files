@@ -16,14 +16,14 @@ const Page7: React.FC = () => {
       </div>
       <div className="section-label">INITIAL RECOVERY REPORT</div>
       <div className="body-text">
-        <p className="indent">
+        <div className="indent">
           The entity was recovered from the craft at 04:00 after the hull
           spontaneously opened. It is humanoid in shape, approximately 4 feet
           tall, with a disproportionately large head and large,{" "}
           <Redacted unlockCode="OBSIDIAN">obsidian-colored eyes</Redacted> that
           lack pupils or irises.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           The skin is a uniform light grey, porous, and lacks any visible hair,
           sweat glands, or reproductive organs. Respirations are minimal,
           approximately 3 per minute. No heartbeat was detected by conventional
@@ -31,8 +31,8 @@ const Page7: React.FC = () => {
           <Redacted unlockCode="VIBRATION">electromagnetic vibration</Redacted>{" "}
           is present in the chest cavity, suggesting a circulatory system based
           on induction rather than pressure.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           The entity was wearing a form-fitting suit made of a silver-threaded
           fabric. Microscopic analysis suggests this fabric is{" "}
           <Redacted unlockCode="ORGANIC">
@@ -40,12 +40,12 @@ const Page7: React.FC = () => {
           </Redacted>
           , and appears to be bonded directly to the skin via a series of
           subcutaneous nodes.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           Initial attempts to establish a baseline medical profile have failed;
           the entity's blood is a thick, amber-colored fluid that solidifies
           almost instantly when exposed to the atmosphere.
-        </p>
+        </div>
       </div>
     </div>
   );

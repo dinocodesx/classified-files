@@ -16,11 +16,11 @@ const Page3: React.FC = () => {
         PROJECT STARFALL — PERSONNEL CLEARANCE LIST
       </div>
       <div className="body-text">
-        <p>
+        <div>
           The following personnel are the only individuals authorized for
           Section 7 Access. Access to the raw telemetry tapes and E.B.E.
           observation decks is restricted to this list without exception.
-        </p>
+        </div>
         <div className="two-col" style={{ marginTop: "10px" }}>
           <div className="col-entry">
             <div className="name">GEN. ARTHUR VANCE</div>
@@ -52,17 +52,17 @@ const Page3: React.FC = () => {
             </div>
           </div>
         </div>
-        <p style={{ marginTop: "15px" }} className="indent">
+        <div style={{ marginTop: "15px" }} className="indent">
           All personnel above have been subjected to Stage 4 psychological
           screening and polygraph testing. Total isolation of "The Pulse" data
           is mandatory. Any leak, whether intentional or accidental, will be
           prosecuted under the National Security Act of 1947.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           Note: Support staff for Team Phoenix and Team Voss are authorized for
           "Need-to-Know" compartmentalized data only. Full narrative awareness
           is restricted to the <Redacted>Council of Seven</Redacted>.
-        </p>
+        </div>
       </div>
     </div>
   );

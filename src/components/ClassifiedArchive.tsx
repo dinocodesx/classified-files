@@ -2,8 +2,17 @@ import { useCallback, useEffect, useState } from "react";
 import ArchiveFolder from "./archive/ArchiveFolder";
 import PageRenderer from "./archive/PageRenderer";
 import { PAGES } from "./archive/data";
+import { ARGProvider } from "./archive/useARGState";
 
 export default function ClassifiedArchive() {
+  return (
+    <ARGProvider>
+      <ArchiveContent />
+    </ARGProvider>
+  );
+}
+
+function ArchiveContent() {
   const [page, setPage] = useState(0);
   const [animKey, setAnimKey] = useState(0);
 

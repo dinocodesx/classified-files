@@ -14,23 +14,23 @@ const Page4: React.FC = () => {
       </div>
       <div className="section-label">FIELD REPORT — KINETIC IMPACT EVENT</div>
       <div className="body-text">
-        <p className="indent">
+        <div className="indent">
           At 02:14 local time, a high-velocity object entered the atmosphere
           over central Nevada, creating a sonic boom that was heard as far away
           as Las Vegas. Despite the magnitude of the entry, the object was not
           tracked by NORAD or the PAVE PAWS radar until it was within 50 miles
           of the surface, suggesting an advanced cloaking or low-observable
           technology.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           Impact occurred 12 miles North-East of the Coyote Springs substation,
           creating a crater roughly 40 feet in diameter. First responders from
           Project STARFALL (Team{" "}
           <Redacted unlockCode="PHOENIX">PHOENIX</Redacted>), already stationed
           in the vicinity for a "military exercise," reached the site within 40
           minutes and established a 5-mile perimeter.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           The object is approximately 14 feet in length, ovoid in shape, and
           composed of a dark, non-reflective material that appears to absorb
           light. There are no visible propulsion ports or entry hatches. It is
@@ -41,12 +41,12 @@ const Page4: React.FC = () => {
           that pulses in sync with the Lunar signal. The surrounding sand has
           been vitrified into a glass-like substance, indicating an extremely
           high impact temperature.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           Geiger counters show normal background levels, but magnetic sensors
           are fluctuating wildly. Personnel report a metallic taste in their
           mouths when approaching the crater rim.
-        </p>
+        </div>
       </div>
     </div>
   );

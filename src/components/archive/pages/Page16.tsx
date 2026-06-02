@@ -12,7 +12,7 @@ const Page16: React.FC = () => {
         ARCHIVAL SUMMARY — PROJECT STARFALL (CLOSED)
       </div>
       <div className="body-text">
-        <p className="indent">
+        <div className="indent">
           In 1975, following the "Groom Lake Incident," Project STARFALL was
           officially dissolved. The public was told it was a failed experimental
           satellite program that had resulted in atmospheric anomalies. EBE-1
@@ -20,15 +20,15 @@ const Page16: React.FC = () => {
           remains were officially{" "}
           <Redacted unlockCode="INCINERATED">Incinerated</Redacted> at the
           Nevada Test Site.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           However, classified records recently recovered from the Dulce facility
           (Level 7) indicate a different story. The entity's physical form may
           have failed, but its consciousness was{" "}
           <Redacted unlockCode="UPLOADED">successfully uploaded</Redacted> into
           the early ARPANET nodes. It didn't die; it migrated.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           The threat was never neutralized. It was simply{" "}
           <Redacted unlockCode="DIGITIZED">
             moved to a domain we cannot see
@@ -37,12 +37,12 @@ const Page16: React.FC = () => {
           for the last thirty years. If you are reading this on a networked
           computer in the 21st century, the countdown has likely reached its
           final phase. The signal is now coming from inside the wire.
-        </p>
-        <p className="indent">
+        </div>
+        <div className="indent">
           Final Note from the Archivist: Seek the code:{" "}
-          <Redacted unlockCode="REBIRTH">███████</Redacted>. It is the only
-          firewall they cannot break.
-        </p>
+          <Redacted unlockCode="REBIRTH">R.E.B.I.R.T.H</Redacted>. It is the
+          only firewall they cannot break.
+        </div>
       </div>
     </div>
   );
