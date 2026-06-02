@@ -56,6 +56,107 @@ const Page1: React.FC = () => {
           act of espionage against the United States.
         </div>
       </div>
+
+      {/* Circular Classified Stamp - Moved UP and BOLD */}
+      <div
+        style={{
+          position: "absolute",
+          top: "70%",
+          right: "30px",
+          transform: "rotate(-12deg)",
+          width: "160px",
+          height: "160px",
+          pointerEvents: "none",
+          opacity: 0.8,
+          zIndex: 10,
+        }}
+      >
+        <svg viewBox="0 0 100 100" style={{ width: "100%", height: "100%" }}>
+          <circle
+            cx="50"
+            cy="50"
+            r="48"
+            fill="none"
+            stroke="var(--classify-red)"
+            strokeWidth="3"
+          />
+          <circle
+            cx="50"
+            cy="50"
+            r="42"
+            fill="none"
+            stroke="var(--classify-red)"
+            strokeWidth="1"
+          />
+
+          <defs>
+            <path id="topCurve" d="M 25,50 A 25,25 0 0,1 75,50" />
+            <path id="bottomCurve" d="M 25,50 A 25,25 0 0,0 75,50" />
+          </defs>
+
+          <text
+            fill="var(--classify-red)"
+            style={{
+              fontSize: "7px",
+              fontWeight: "900",
+              fontFamily: "var(--font-heading)",
+            }}
+          >
+            <textPath href="#topCurve" startOffset="50%" textAnchor="middle">
+              CLASSIFIED • CLASSIFIED
+            </textPath>
+          </text>
+
+          <text
+            fill="var(--classify-red)"
+            style={{
+              fontSize: "7px",
+              fontWeight: "900",
+              fontFamily: "var(--font-heading)",
+            }}
+          >
+            <textPath
+              href="#bottomCurve"
+              startOffset="50%"
+              textAnchor="middle"
+              dominantBaseline="hanging"
+            >
+              CLASSIFIED • CLASSIFIED
+            </textPath>
+          </text>
+
+          <line
+            x1="22"
+            y1="44"
+            x2="78"
+            y2="44"
+            stroke="var(--classify-red)"
+            strokeWidth="2"
+          />
+          <line
+            x1="22"
+            y1="56"
+            x2="78"
+            y2="56"
+            stroke="var(--classify-red)"
+            strokeWidth="2"
+          />
+
+          <text
+            x="50"
+            y="52"
+            textAnchor="middle"
+            fill="var(--classify-red)"
+            style={{
+              fontSize: "11px",
+              fontWeight: "900",
+              fontFamily: "var(--font-display)",
+            }}
+          >
+            TOP SECRET
+          </text>
+        </svg>
+      </div>
     </div>
   );
 };

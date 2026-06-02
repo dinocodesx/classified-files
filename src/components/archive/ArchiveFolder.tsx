@@ -71,8 +71,8 @@ const ArchiveFolder: React.FC<ArchiveFolderProps> = ({
         </div>
 
         {/* Navigation arrows */}
-        {page > 0 && <div className="nav-arrow left">◂◂</div>}
-        {page < totalPAGES - 1 && <div className="nav-arrow right">▸▸</div>}
+        {/*{page > 0 && <div className="nav-arrow left">◂◂</div>}
+        {page < totalPAGES - 1 && <div className="nav-arrow right">▸▸</div>}*/}
 
         {/* Click zones */}
         {page > 0 && (
