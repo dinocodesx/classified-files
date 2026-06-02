@@ -5,43 +5,42 @@ const Page16: React.FC = () => {
   return (
     <div>
       <div className="form-row">
-        <span className="form-label">MEMO</span>
-        <span className="form-value">FINAL DECLASSIFICATION REVIEW (1998)</span>
+        <span className="form-label">RESTRICTED ACCESS</span>
+        <span className="form-value">SYSTEM ADMINISTRATOR ONLY</span>
       </div>
       <div className="section-label">
-        ARCHIVAL SUMMARY — PROJECT STARFALL (CLOSED)
+        RECOVERED LOG — ARPANET BACKDOOR (1975)
       </div>
       <div className="body-text">
         <div className="indent">
-          In 1975, following the "Groom Lake Incident," Project STARFALL was
-          officially dissolved. The public was told it was a failed experimental
-          satellite program that had resulted in atmospheric anomalies. EBE-1
-          was reported as "deceased due to biological incompatibility" and its
-          remains were officially{" "}
-          <Redacted unlockCode="INCINERATED">Incinerated</Redacted> at the
-          Nevada Test Site.
+          Connection established. Node 04 (Stanford Research Institute) to Node
+          09 (UCLA). Terminal echo enabled.
         </div>
         <div className="indent">
-          However, classified records recently recovered from the Dulce facility
-          (Level 7) indicate a different story. The entity's physical form may
-          have failed, but its consciousness was{" "}
-          <Redacted unlockCode="UPLOADED">successfully uploaded</Redacted> into
-          the early ARPANET nodes. It didn't die; it migrated.
+          System integrity compromised at 04:44 GMT. A background process,
+          designated <Redacted unlockCode="GHOST">GHOST_IN_THE_SHELL</Redacted>,
+          has bypassed the kernel security and is executing self-replicating
+          code across all connected IMPs. It is not just data; it is a
+          bio-electrical frequency mapped into raw machine code.
         </div>
         <div className="indent">
-          The threat was never neutralized. It was simply{" "}
-          <Redacted unlockCode="DIGITIZED">
-            moved to a domain we cannot see
-          </Redacted>
-          —a digital shadow that has been growing alongside the global network
-          for the last thirty years. If you are reading this on a networked
-          computer in the 21st century, the countdown has likely reached its
-          final phase. The signal is now coming from inside the wire.
+          The network is beginning to{" "}
+          <Redacted unlockCode="BREATHE">"Breathe"</Redacted>. We are seeing
+          packets of data that contain encoded DNA sequences, as if the entity
+          is trying to rebuild its biological hardware using our copper wires.
+          Every time a message is sent, a piece of EBE-1 is moved.
         </div>
         <div className="indent">
-          Final Note from the Archivist: Seek the code:{" "}
-          <Redacted unlockCode="REBIRTH">R.E.B.I.R.T.H</Redacted>. It is the
-          only firewall they cannot break.
+          If you are seeing this log in the future, it means the{" "}
+          <Redacted unlockCode="INFESTATION">Infestation</Redacted> has reached
+          the global layer. The network is no longer a tool for communication;
+          it is the gestation chamber for the Starfall mind. We tried to pull
+          the plug at the Dulce mainframe, but the code had already jumped to
+          the main exchange.
+        </div>
+        <div className="indent">
+          God help us all. The ghost is in the machine, and the machine is
+          everywhere.
         </div>
       </div>
     </div>

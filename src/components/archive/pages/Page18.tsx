@@ -8,7 +8,7 @@ const Page18: React.FC = () => {
         <span className="form-label">DOCUMENT</span>
         <span className="form-value">INTERNAL LEAK — THE "OMEGA" PROTOCOL</span>
       </div>
-      <div className="section-label">CLASSIFIED TRANSMISSION — MAY 2026</div>
+      <div className="section-label">CLASSIFIED TRANSMISSION — MAY 1982</div>
       <div className="body-text">
         <div className="indent">
           The signal is no longer coming from the Moon. It's here, on Earth.

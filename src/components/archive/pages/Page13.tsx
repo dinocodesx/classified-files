@@ -25,7 +25,7 @@ const Page13: React.FC = () => {
           photo, but a multi-dimensional map. It shows a fleet of thousands of
           similar ovoid craft, currently positioned in the Oort cloud. The
           date-stamp, when translated from their base-60 temporal system,
-          corresponds to <Redacted unlockCode="2026">June 2026</Redacted>.
+          corresponds to <Redacted unlockCode="1982">June 1982</Redacted>.
         </div>
         <div className="indent">
           The craft we recovered in Nevada was not a scout. It was a{" "}

@@ -26,7 +26,7 @@ const Page24: React.FC = () => {
           <div className="indent">
             The archive has been successfully purged. The digital ghost of EBE-1
             has been isolated and the dimensional bridge collapsed at the cost
-            of the Dulce facility and all personnel within. The Year 2026 will
+            of the Dulce facility and all personnel within. The Year 1982 will
             not be the year of the Harvest. Not this time.
           </div>
           <div className="indent">
@@ -139,7 +139,7 @@ const Page24: React.FC = () => {
       >
         <div className="signature">The Witness</div>
         <div style={{ textAlign: "right", fontSize: "10px", opacity: 0.5 }}>
-          ARCHIVE CLOSED: 02 JUN 2026
+          ARCHIVE CLOSED: 02 JUN 1982
           <br />
           ENCRYPTION: QUANTUM-LATTICE-7
         </div>

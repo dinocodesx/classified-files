@@ -90,8 +90,8 @@ const Page1: React.FC = () => {
           />
 
           <defs>
-            <path id="topCurve" d="M 25,50 A 25,25 0 0,1 75,50" />
-            <path id="bottomCurve" d="M 25,50 A 25,25 0 0,0 75,50" />
+            <path id="topCurve" d="M 20,50 A 30,30 0 0,1 80,50" />
+            <path id="bottomCurve" d="M 20,50 A 30,30 0 0,0 80,50" />
           </defs>
 
           <text
@@ -127,9 +127,9 @@ const Page1: React.FC = () => {
 
           <line
             x1="22"
-            y1="44"
+            y1="42"
             x2="78"
-            y2="44"
+            y2="42"
             stroke="var(--classify-red)"
             strokeWidth="2"
           />
